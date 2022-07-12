@@ -1,0 +1,52 @@
+@import 'animate.css';
+
+.app{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 180px;
+}
+.animate__backInLeft {
+  animation-duration: 2s
+}
+.questions{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.question-area h1 {
+  font-size: 40px;
+  color: #3c6e71;
+
+}
+.question-box {
+  background-color:#353535;
+  color: white;
+  margin:15px;
+  border-radius: 10px;
+  padding: 0px 40px 10px 40px;
+}
+.question-box h1{
+  text-align: left;
+}
+.question-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.question-button {
+  margin: 5px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #3c6e71;
+}
+.question-button:disabled {
+  background-color:#6c757d;
+  color:white;
+}
+
+.answer-display {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
